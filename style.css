@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(320deg,skyblue,white,skyblue);
+}
+.form{
+    position: relative;
+    display: grid;
+}
+.value{
+    padding: 10px;
+    font-size: 20px;
+    height: 80px;
+    width: 240px;
+    text-align: right;
+    grid-column: span 4;
+}
+.form span{
+    place-items: center;
+    border: 1px solid rgba(0,0,0,1);
+    background-color: #091921;
+    color: white;
+    height: 60px;
+    width: 60px;
+    display: grid;
+
+
+}
+.form span:active{
+    background-color: greenyellow;
+    color: black;
+
+}
+.form span.equal{
+    height: 120px;
+    grid-row: span 2;
+    background-color: blue;
+}
+.form span.clear{
+    background-color: aqua;
+    color: black;
+}
